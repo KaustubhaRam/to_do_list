@@ -22,7 +22,7 @@ document.addEventListener('DOMContentLoaded', () => {
         if (e.target.classList.contains('deleteBtn')) {
             e.target.parentElement.remove();
         } else if (e.target.classList.contains('checkbox')) {
-            e.target.parentElement.classList.toggle('completed')
+            e.target.parentElement.classList.toggle('completed');
         }
     });
 });
